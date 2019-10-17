@@ -7,6 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'bullshit'
   spec.version       = Bullshit::VERSION
   spec.authors       = ['Dan Jakob Ofer']
+  spec.homepage      = 'https://github.com/ofer987/bullshit'
   spec.email         = ['dan@ofer.to']
 
   spec.summary       = %q{Generate corporate-speak (also known as bullshit)}
