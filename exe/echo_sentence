@@ -1,3 +1,12 @@
-#!/usr/bin/env bash
+#!/usr/bin/env ruby
+# frozen_string_literal: true
 
-echo "$(./exe/bullshit) $(./exe/bullshit)"
+require 'faker'
+
+def preposition
+  values = %w[to from where for of]
+
+  values[Random.new.rand(0...values.size)]
+end
+
+puts "#{Faker::Company.bs} #{preposition} #{Faker::Company.bs}".capitalize
