@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo "$(./exe/bullshit) $(./exe/bullshit)"
